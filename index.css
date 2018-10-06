@@ -1,0 +1,66 @@
+body{
+
+    background: burlywood;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(backg.jpg);
+    text-align: center;
+}
+
+#logo{
+     
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+}
+
+#logo img{
+    padding-right:  15px;
+}
+#logo p{
+    
+}
+
+#menu {
+    padding: 1px 0px;
+}
+#menu ul{
+    list-style: none;
+    
+}
+#menu  ul li{
+  display: inline;
+  padding: 0px 10px;
+}
+#menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+     
+}
+.principal {
+    float: left;
+    width: 100%;
+}
+.grafico {
+    float: left;
+    width: 45%;
+    text-align: right;
+    padding-right: 100px; 
+}
+.tabela {
+    float: left;
+    width: 45%; 
+    text-align: left;
+}
+
+table{
+    background-color: pink;
+}
+
+
+ footer{
+    float: left;
+    width: 100%;
+    margin-top: 20px;   
+ }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=“UTF-8”>
+    <title>Tecnologia Web AC 3</title>
+ 
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header id="header">
+            <h1>Tecnologia Web - AC 3</h1>
+        </div>
+        
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+    </header>  
+    <!-- Menu -->
+    <nav id="menu" >
+        <ul>
+            <li>
+                <a href="#">Home&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+            </li>               
+            <li>
+                <a href="#">Gráfico&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+            </li>
+            <li>
+                <a href="#">Tabela&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+            </li>
+            <li>
+                <a href="#">Rodapé&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Principal -->
+    <main class="principal">
+        <section class="grafico">
+            
+            <div>
+                <h2>Gráfico</h2>
+                <div></div>
+                <img src="{{url_for('static', filename='Grafico.jpg')}}" />
+
+                <img src="{{url_for('static', filename='Grafico2.jpg')}}" />
+               
+            
+        </section>
+        <!-- Tabela -->
+        <section class="tabela">
+            <div>
+                <h2>Tabela de dados</h2>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th>Data</th>
+                        <th>Valor</th>
+                    </tr>
+                    <tr>
+                        <td>2018-01-01</td>
+                        <td>3,85</td>
+                    </tr>
+                    <tr>
+                        <td>2018-01-02</td>
+                        <td>3,88</td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <p>Desenvolvido por Aline Soares®</p>
+    </footer>
+</body>
+
+</html>
